@@ -1,54 +1,63 @@
-# TITLE
-## Tasks definitions
+# Motivation
 
-time series analysis tasks are formally defined in the literature in time series data-mining reviews like [Fakhazari2017](#citation.fakhrazari2017),[Esling2012](#citation.esling2012),[Fu2011](#citation.fu2011),[Keogh2003](#citation.keogh2003).
+
+[Siebert2021](#citation.siebert2021)
+
+
+
+# Time series analysis tasks
+
+Time series analysis tasks are formally defined in the literature in time series data-mining reviews like [Fakhazari2017](#citation.fakhrazari2017),[Esling2012](#citation.esling2012),[Fu2011](#citation.fu2011),[Keogh2003](#citation.keogh2003).
 Esling and Agon also define "implementation components" [Esling2012](#citation.esling2012)
+
+## Tasks
 
 ### Indexing (query by content)
 
-given a time series and some similarity measure, find the nearest matching time series.
+Given a time series and some similarity measure, find the nearest matching time series.
 
 ### Clustering
 
-find groups (clusters) of similar time series.
+Find groups (clusters) of similar time series.
 
 ### Classification
 
-assign a time series to a predefined class.
+Assign a time series to a predefined class.
 
-### Segmentation (Summarization)}
+### Segmentation (Summarization)
 
-create an accurate approximation of a time series, by reducing its dimensionality while retaining its essential features.
+Create an accurate approximation of a time series, by reducing its dimensionality while retaining its essential features.
 
 ### Forecasting (Prediction)
 
-given a time series dataset up to a given time $t_n$, forecast the next values.
+Given a time series dataset up to a given time $t_n$, forecast the next values.
 
 ### Anomaly Detection
 
-find abnormal data points or subsequences (also called discords).
+Find abnormal data points or subsequences (also called discords).
 
 
 ### Motif Discovery
 
-find every subsequences (called motif) that appears recurrently in a time series.
+Find every subsequences (called motif) that appears recurrently in a time series.
 
 ### Rules Discovery (Rule mining)
 
-find the rules that may govern associations between sets of time series or subsequences \cite{Fu.2011,Fakhrazari.2017} 
+Find the rules that may govern associations between sets of time series or subsequences \cite{Fu.2011,Fakhrazari.2017} 
 
 ## Implementation components
 
 ### preprocessing 
-(e.g., filtering noise, removing outliers, or imputing missing values), 
 
-### representation (e.g., dimensionality reduction, finding fundamental shape characteristics), 
+Examples: normalization, filtering noise, removing outliers, or imputing missing values.
 
-### similarity measures, 
+### representation (e.g., dimensionality reduction, finding fundamental shape characteristics)
 
-### indexing schemes.
+### similarity measures
 
-## References
+### indexing schemes
+
+# References
 
 <a name="citation.esling2012">1.</a> Esling, P., Agon, C.: Time-series data mining. ACM Computing Surveys 45(1), 1{34 (2012). https://doi.org/10.1145/2379776.2379788
 
@@ -57,3 +66,5 @@ find the rules that may govern associations between sets of time series or subse
 <a name="citation.fu2011">3.</a> Fu, T.c.: A review on time series data mining. Engineering Applications of Artificial Intelligence 24(1), 164{181 (2011). https://doi.org/10.1016/j.engappai.2010.09.007
 
 <a name="citation.keogh2003">4.</a> Keogh, E., Kasetty, S.: On the Need for Time Series Data Mining Benchmarks: A Survey and Empirical Demonstration (2003)
+
+<a name="citation.siebert2021">5.</a> Julien Siebert, Janek Groß, Christof Schroth. A systematic review of Python packages for time series analysis. [https://arxiv.org/abs/2104.07406](https://arxiv.org/abs/2104.07406)
