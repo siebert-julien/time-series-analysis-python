@@ -1,16 +1,15 @@
-# Motivation
-
+# Overview of time series analysis Python packages
+## Motivation
 
 [Siebert2021](#citation.siebert2021)
 
 
 
-# Time series analysis tasks
+## Tasks definitions
 
 Time series analysis tasks are formally defined in the literature in time series data-mining reviews like [Fakhazari2017](#citation.fakhrazari2017),[Esling2012](#citation.esling2012),[Fu2011](#citation.fu2011),[Keogh2003](#citation.keogh2003).
 Esling and Agon also define "implementation components" [Esling2012](#citation.esling2012)
 
-## Tasks
 
 ### Indexing (query by content)
 
@@ -57,7 +56,7 @@ Examples: normalization, filtering noise, removing outliers, or imputing missing
 
 ### indexing schemes
 
-# References
+## References
 
 <a name="citation.esling2012">1.</a> Esling, P., Agon, C.: Time-series data mining. ACM Computing Surveys 45(1), 1{34 (2012). https://doi.org/10.1145/2379776.2379788
 
