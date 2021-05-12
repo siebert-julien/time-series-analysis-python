@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Overview Packages</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8"
+            src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.js"></script>
+</head>
+<body>
+<table id="packages" class="display">
+    <thead>
+    <tr>
+        <th>url</th>
+        <th>name</th>
+        <th>forecasting</th>
+        <th>classification</th>
+        <th>regression</th>
+        <th>segmentation</th>
+        <th>change point detection</th>
+        <th>clustering</th>
+        <th>anomaly detection</th>
+        <th>pattern recognition</th>
+        <th>dimensionality reduction</th>
+        <th>selection model hyperparameter features</th>
+        <th>preprocessing</th>
+        <th>visualization</th>
+        <th>decomposition</th>
+        <th>metrics statistical tests</th>
+        <th>synthetic data generation</th>
+        <th>missing values imputation</th>
+        <th>contains datasets</th>
+        <th>documentation exists</th>
+        <th>notebooks</th>
+        <th>API documentation</th>
+        <th>install documentation</th>
+        <th>user guides</th>
+    </tr>
+    </thead>
+    <tfoot>
+    <tr>
+        <th>url</th>
+        <th>name</th>
+        <th>forecasting</th>
+        <th>classification</th>
+        <th>regression</th>
+        <th>segmentation</th>
+        <th>change point detection</th>
+        <th>clustering</th>
+        <th>anomaly detection</th>
+        <th>pattern recognition</th>
+        <th>dimensionality reduction</th>
+        <th>selection model hyperparameter features</th>
+        <th>preprocessing</th>
+        <th>visualization</th>
+        <th>decomposition</th>
+        <th>metrics statistical tests</th>
+        <th>synthetic data generation</th>
+        <th>missing values imputation</th>
+        <th>contains datasets</th>
+        <th>documentation exists</th>
+        <th>notebooks</th>
+        <th>API documentation</th>
+        <th>install documentation</th>
+        <th>user guides</th>
+    </tr>
+    </tfoot>
+</table>
+
+<script>
+$(document).ready(function() {
+    $('#packages').DataTable( {
+        "ajax": "data/time-series-packages.json",
+        "columns": [
+            {"data":"url"},
+            {"data":"name"},
+            {"data":"forecasting"},
+            {"data":"classification"},
+            {"data":"regression"},
+            {"data":"segmentation"},
+            {"data":"change point detection"},
+            {"data":"clustering"},
+            {"data":"anomaly detection"},
+            {"data":"pattern recognition"},
+            {"data":"dimensionality reduction"},
+            {"data":"selection model hyperparameter features"},
+            {"data":"preprocessing"},
+            {"data":"visualization"},
+            {"data":"decomposition"},
+            {"data":"metrics statistical tests"},
+            {"data":"synthetic data generation"},
+            {"data":"missing values imputation"},
+            {"data":"contains datasets"},
+            {"data":"documentation exists"},
+            {"data":"notebooks"},
+            {"data":"API documentation"},
+            {"data":"install documentation"},
+            {"data":"user guides"}
+        ]
+    } );
+} );
+
+
+</script>
+</body>
+</html>
