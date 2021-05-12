@@ -1,37 +1,59 @@
-## Welcome to GitHub Pages
+# TITLE
+## Tasks definitions
 
-You can use the [editor on GitHub](https://github.com/siebert-julien/time-series-analysis-python/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+time series analysis tasks are formally defined in the literature in time series data-mining reviews like [Fakhazari2017](#citation.fakhrazari2017),[Esling2012](#citation.esling2012),[Fu2011](#citation.fu2011),[Keogh2003](#citation.keogh2003).
+Esling and Agon also define "implementation components" [Esling2012](#citation.esling2012)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Indexing (query by content)
 
-### Markdown
+given a time series and some similarity measure, find the nearest matching time series.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Clustering
 
-```markdown
-Syntax highlighted code block
+find groups (clusters) of similar time series.
 
-# Header 1
-## Header 2
-### Header 3
+### Classification
 
-- Bulleted
-- List
+assign a time series to a predefined class.
 
-1. Numbered
-2. List
+### Segmentation (Summarization)}
 
-**Bold** and _Italic_ and `Code` text
+create an accurate approximation of a time series, by reducing its dimensionality while retaining its essential features.
 
-[Link](url) and ![Image](src)
-```
+### Forecasting (Prediction)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+given a time series dataset up to a given time $t_n$, forecast the next values.
 
-### Jekyll Themes
+### Anomaly Detection
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/siebert-julien/time-series-analysis-python/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+find abnormal data points or subsequences (also called discords).
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Motif Discovery
+
+find every subsequences (called motif) that appears recurrently in a time series.
+
+### Rules Discovery (Rule mining)
+
+find the rules that may govern associations between sets of time series or subsequences \cite{Fu.2011,Fakhrazari.2017} 
+
+## Implementation components
+
+### preprocessing 
+(e.g., filtering noise, removing outliers, or imputing missing values), 
+
+### representation (e.g., dimensionality reduction, finding fundamental shape characteristics), 
+
+### similarity measures, 
+
+### indexing schemes.
+
+## References
+
+<a name="citation.esling2012">1.</a> Esling, P., Agon, C.: Time-series data mining. ACM Computing Surveys 45(1), 1{34 (2012). https://doi.org/10.1145/2379776.2379788
+
+<a name="citation.fakhrazari2017">2.</a> Fakhrazari, A., Vakilzadian, H.: A survey on time series data mining. In: 2017 IEEE International Conference on Electro Information Technology (EIT). pp. 476{481. IEEE (5/14/2017 - 5/17/2017). https://doi.org/10.1109/EIT.2017.8053409
+
+<a name="citation.fu2011">3.</a> Fu, T.c.: A review on time series data mining. Engineering Applications of Artificial Intelligence 24(1), 164{181 (2011). https://doi.org/10.1016/j.engappai.2010.09.007
+
+<a name="citation.keogh2003">4.</a> Keogh, E., Kasetty, S.: On the Need for Time Series Data Mining Benchmarks: A Survey and Empirical Demonstration (2003)
