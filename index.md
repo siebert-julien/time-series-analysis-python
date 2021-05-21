@@ -1,60 +1,40 @@
 # Overview of time series analysis Python packages
+
+To the overview [overview](overview.html)
+
 ## Motivation
 
 [Siebert2021](#citation.siebert2021)
 
+## Categories definitions:
 
-
-## Tasks definitions
-
-Time series analysis tasks are formally defined in the literature in time series data-mining reviews like [Fakhazari2017](#citation.fakhrazari2017),[Esling2012](#citation.esling2012),[Fu2011](#citation.fu2011),[Keogh2003](#citation.keogh2003).
-Esling and Agon also define "implementation components" [Esling2012](#citation.esling2012)
-
-
-### Indexing (query by content)
-
-Given a time series and some similarity measure, find the nearest matching time series.
-
-### Clustering
-
-Find groups (clusters) of similar time series.
-
-### Classification
-
-Assign a time series to a predefined class.
-
-### Segmentation (Summarization)
-
-Create an accurate approximation of a time series, by reducing its dimensionality while retaining its essential features.
-
-### Forecasting (Prediction)
-
-Given a time series dataset up to a given time $t_n$, forecast the next values.
-
-### Anomaly Detection
-
-Find abnormal data points or subsequences (also called discords).
-
-
-### Motif Discovery
-
-Find every subsequences (called motif) that appears recurrently in a time series.
-
-### Rules Discovery (Rule mining)
-
-Find the rules that may govern associations between sets of time series or subsequences \cite{Fu.2011,Fakhrazari.2017} 
-
-## Implementation components
-
-### preprocessing 
-
-Examples: normalization, filtering noise, removing outliers, or imputing missing values.
-
-### representation (e.g., dimensionality reduction, finding fundamental shape characteristics)
-
-### similarity measures
-
-### indexing schemes
+### Tasks:
+####  T1 (forecasting),
+####  T2 (classification),
+####  T3 (clustering),
+####  T4 (anomaly detection),
+####  T5 (segmentation),
+####  T6 (pattern recognition),
+####  T7 (change point detection).
+### Data preparation (also called implementation components):
+####  DP1 (dimensionality reduction),
+####  DP2 (missing values imputation),
+####  DP3 (decomposition),
+####  DP4 (preprocessing),
+####  DP5 (similarity measures).
+### Evaluation:
+####  E1 (model selection, hyperparameters search, features selection),
+####  E2 (metrics and statistical tests),
+####  E3 (visualization).
+### Datasets:
+####  D1 (synthetic data generation),
+####  and D2 (contains datasets).
+### Documentation:
+####  Do1 (dedicated documentation),
+####  Do2 (notebook: directly executable (2), present (1)),
+####  Do3 (API reference),
+####  Do4 (install guide),
+####  Do5 (user guide)
 
 ## References
 
