@@ -32,8 +32,8 @@ Sales, product price, or stock option prediction are typical examples from the f
 <figure>
   <img
   src="images/forecasting.svg"
-  alt="Classification">
-  <figcaption>Classification</figcaption>
+  alt="Forecasting">
+  <figcaption>Forecasting</figcaption>
 </figure>
 
 ####  T2 (classification)
