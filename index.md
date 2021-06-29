@@ -29,64 +29,92 @@ Forecasting (also called prediction) is the task of predicting future values of 
 This is probably the most known and used task and there are many examples of forecasting applications. 
 Sales, product price, or stock option prediction are typical examples from the field of finance.
 
-![images/forecasting.svg](images/forecasting.svg)
-
-_Forecasting_
+<figure>
+  <img
+  src="images/forecasting.svg"
+  alt="Classification">
+  <figcaption>Classification</figcaption>
+</figure>
 
 ####  T2 (classification)
 Classification is the task of assigning time series to predefined groups (called classes).
-![images/classification_word_height_profiles.svg](images/classification_word_height_profiles.svg)
 
-_Clustering_
+<figure>
+  <img
+  src="images/classification_word_height_profiles.svg"
+  alt="Classification">
+  <figcaption>Classification</figcaption>
+</figure>
 
 ####  T3 (clustering)
 Clustering is the task of grouping similar time series into groups (called clusters). 
 The difference between clustering and classification is that in classification the groups are predefined, 
 whereas in clustering the groups are formed on the basis of the statistical properties of the data itself. 
 
-![images/overview_word_height_profiles.svg](images/overview_word_height_profiles.svg)
+<figure>
+  <img
+  src="images/overview_word_height_profiles.svg"
+  alt="Clustering">
+  <figcaption>Clustering</figcaption>
+</figure>
 
-_Clustering_
 
 ####  T4 (anomaly detection)
 
 Anomaly detection (also called outliers or novelty detection) is the task of finding abnormal data points (called outliers)
 or subsequences (called discords).  
 
-![images/anomaly_detection_ecg.svg](images/anomaly_detection_ecg.svg)
+<figure>
+  <img
+  src="images/anomaly_detection_ecg.svg"
+  alt="Anomaly detection">
+  <figcaption>Anomaly detection</figcaption>
+</figure>
 
-_Anomaly detection_
 
 ####  T5 (segmentation)
 Segmentation (also called summarization) is the task of creating an accurate approximation of a time series, 
 by reducing its dimensionality while retaining its essential features. 
 
-![images/segentation_SAX.svg](images/segentation_SAX.svg)
-
-_Segmentation (here SAX)_
+<figure>
+  <img
+  src="images/segentation_SAX.svg"
+  alt="Segmentation">
+  <figcaption>Segmentation (here SAX)</figcaption>
+</figure>
 
 ####  T6 (pattern recognition)
-Pattern recognition (also called motifs discovery) is the task of finding time series subsequences that appears recurrently. 
+Pattern recognition (also called motif discovery) is the task of finding time series subsequences that appears recurrently. 
 
-![images/motifs_detection.svg](images/motifs_detection.svg)
+<figure>
+  <img
+  src="images/motifs_detection.svg"
+  alt="Motifs discovery">
+  <figcaption>Motifs discovery</figcaption>
+</figure>
 
-_Motifs discovery_
-
-NOt to be confused with **indexing**. Indexing (also called query by content) is the task of finding similar time series 
+Not to be confused with **indexing**. Indexing (also called query by content) is the task of finding similar time series 
 (or a given pattern or a subsequence of a time series) in a database. 
 Searching for similar time series is the basis for other related tasks (such as clustering or motifs discovery, for instance). 
 
-![images/pattern_detection.svg](images/pattern_detection.svg)
-
-_Indexing_
+<figure>
+  <img
+  src="images/pattern_detection.svg"
+  alt="Indexing">
+  <figcaption>Indexing</figcaption>
+</figure>
 
 ####  T7 (change point detection)
 Change point detection is the task of finding points in time, where the statistical properties of the time series (like mean, variance)
 abruptly change. Change point detection tests are often used in manufacturing for quality control.
 
-![images/changepoint_detection.svg](images/changepoint_detection.svg)
+<figure>
+  <img
+  src="images/changepoint_detection.svg"
+  alt="change point detection">
+  <figcaption>Change point detection</figcaption>
+</figure>
 
-_Change point detection_
 
 ### Data preparation (also called implementation components in [Elsing2012](#citation.esling2012)):
 ####  DP1 (dimensionality reduction),
