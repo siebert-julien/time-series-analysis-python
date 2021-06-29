@@ -16,7 +16,7 @@ To guide our review and filter relevant packages, we defined the following inclu
  * IC2.1: The package should be actively maintained (last commit in less than 6 months) (IC2.1);
  * IC2.2: it should have more than 100 GitHub stars (IC2.2); 
  * IC2.3: it should be listed in PyPI and be installable via pip or conda (IC2.3). 
- * IC3: The package should target explicitly time series analysis (IC3). We exclude packages that can be used for time series analysis (as building blocks) main purpose is not  time series analysis per se (for example, generic scientific computing packages such as scipy or numpy, packages dedicated to data manipulation or storage such as pandas, or generic machine learning or data mining packages such as scikit-learn). 
+ * IC3: The package should target explicitly time series analysis (IC3). We exclude packages that can be used for time series analysis (as building blocks) whose main purpose is not  time series analysis per se (for example, generic scientific computing packages such as scipy or numpy, packages dedicated to data manipulation or storage such as pandas, or generic machine learning or data mining packages such as scikit-learn). 
  * IC4: Finally, we focused our search on packages offering methods that tend to be domain agnostic (IC4) and exclude domain specific packages. Domain specific packages are packages aiming to solve time series analysis in a specific domain (for example, audio, finance, geoscience, etc.). They usually focus on specific types and formats of time series and domain related analysis tasks.
 
 ## Categories definitions:
