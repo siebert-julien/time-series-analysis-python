@@ -20,9 +20,14 @@ To guide our review and filter relevant packages, we defined the following inclu
  * IC4: Finally, we focused our search on packages offering methods that tend to be domain agnostic (IC4) and exclude domain specific packages. Domain specific packages are packages aiming to solve time series analysis in a specific domain (for example, audio, finance, geoscience, etc.). They usually focus on specific types and formats of time series and domain related analysis tasks.
 
 ## Categories definitions:
-The search process in [Siebert2021](#citation.siebert2021), led us (the authors) to use the some categories (we hope to update them over time).
+The search process in [Siebert2021](#citation.siebert2021), led us (the authors) to use the some categories (we hope to update them over time): 
+analysis tasks, data preparation aspects (also called implementation components in [Elsing2012](#citation.esling2012)), evaluation aspects, datasets, and documentation aspects.
+Each category is defined below.
 
-### Tasks:
+
+### Analysis Tasks:
+
+In these categories, we have listed the packages that provide explicit methods to solve the mentioned task.
 
 ####  T1 (forecasting)
 Forecasting (also called prediction) is the task of predicting future values of a time series given some past data. 
@@ -116,12 +121,34 @@ abruptly change. Change point detection tests are often used in manufacturing fo
 </figure>
 
 
-### Data preparation (also called implementation components in [Elsing2012](#citation.esling2012)):
-####  DP1 (dimensionality reduction),
-####  DP2 (missing values imputation),
-####  DP3 (decomposition),
-####  DP4 (preprocessing),
-####  DP5 (similarity measures).
+### Data preparation
+
+Data preparation aspects (also called implementation components in [Elsing2012](#citation.esling2012)) are techniques that are used to support or improve the analysis.
+The boundary between analysis tasks and these aspects is not always clear. Any discussion here is welcome.
+
+####  DP1 (dimensionality reduction)
+
+Dimensionality reduction methods aims at transforming multi-dimensional time series to into a low-dimensional representation.
+The goal is to retain meaningful properties of the original time series.
+
+####  DP2 (missing values imputation)
+
+Missing values imputation are methods that detects and replace missing values with synthetic values. 
+The substituted values should, at best, be representative of the original (often unknown) missing values.
+
+####  DP3 (decomposition)
+
+A time series can be decomposed into different components like trends, seasonality, frequency spectrum (e.g. Fourier) or time-frequency cepstrum (e.g., wavelets).
+In this category we listed packages that explicitly provided methods for decomposing time series.
+
+####  DP4 (preprocessing)
+In this category we listed packages providing generic transformation methods (e.g., scaling, normalizing) and features generation methods.
+
+####  DP5 (similarity measures)
+
+Similarity measures are the foundations of many analysis tasks. 
+In this category, we listed packages that provide explicit access to similarity measures functions.
+
 ### Evaluation:
 ####  E1 (model selection, hyperparameters search, features selection),
 ####  E2 (metrics and statistical tests),
