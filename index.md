@@ -2,7 +2,7 @@
 
 ## Motivation
 This work was first published in [Siebert2021](#citation.siebert2021). This page presents the motivation and context behind the article.
-The (hopefully updated) [overview](overview.html) of python packages dedicated to time series analysis can be found by following this [link](overview.html).
+The [overview](overview.html) of python packages dedicated to time series analysis can be found by following this [link](overview.html).
 
 The original goal of the paper was to answer the following research questions:
  * Which time series analysis tasks exist? and which of these are implemented in (maintained) Python packages?
@@ -124,7 +124,7 @@ abruptly change. Change point detection tests are often used in manufacturing fo
 ### Data preparation
 
 Data preparation aspects (also called implementation components in [Elsing2012](#citation.esling2012)) are techniques that are used to support or improve the analysis.
-The boundary between analysis tasks and these aspects is not always clear. Any discussion here is welcome.
+In these categories we listed packages that provide explicit function for reducing dimensions, imputing missing values, transforming the data, or computing similarity measures.
 
 ####  DP1 (dimensionality reduction)
 
@@ -150,27 +150,58 @@ Similarity measures are the foundations of many analysis tasks.
 In this category, we listed packages that provide explicit access to similarity measures functions.
 
 ### Evaluation:
-####  E1 (model selection, hyperparameters search, features selection),
-####  E2 (metrics and statistical tests),
+
+For these categories, we investigate whether the packages provide function to help evaluate the results of the analysis tasks.
+
+####  E1 (model selection, hyperparameters search, features selection).
+
+In this category, we listed packages that provide function to perform model, features, or hyperparameters selection.
+
+####  E2 (metrics and statistical tests).
+
+In this category, we checked whether the package explicitly provide function for computing evaluation metrics or statistical tests.
+
 ####  E3 (visualization).
+
+For this category, we investigated whether the packages provide plotting functions.
+
 ### Datasets:
-####  D1 (synthetic data generation),
-####  and D2 (contains datasets).
+
+For these categories, we checked whether the packages provide function to generate synthetic datasets or provide access to existing ones.
+
+####  D1 (synthetic data generation)
+
+Does the package provide functions to generate synthetic datasets?
+####  D2 (contains datasets)
+
+Does the package provide function to access existing datasets?
+
 ### Documentation:
-####  Do1 (dedicated documentation),
-####  Do2 (notebook: directly executable (2), present (1)),
-####  Do3 (API reference),
-####  Do4 (install guide),
+
+For these categories, we investigated several documentation aspects.
+
+####  Do1 (dedicated documentation)
+
+Is there a dedicated documentation page for the package?
+
+####  Do2 (notebook: directly executable (2), present (1))
+
+Does the package provide notebooks files (1)? are these directly executable without installing the package (2) (e.g., via myinder)?
+
+####  Do3 (API reference)
+ 
+Does the package documentation provide an API reference listing all modules and functions available?
+
+####  Do4 (install guide)
+
+Does the package documentation (or the corresponding repository README) provide an installation guide?
+
 ####  Do5 (user guide)
+
+Does the package documentation provide a user guide?
 
 ## References
 <a name="citation.siebert2021">1.</a> Julien Siebert, Janek Groß, Christof Schroth. A systematic review of Python packages for time series analysis. [https://arxiv.org/abs/2104.07406](https://arxiv.org/abs/2104.07406)
 
 <a name="citation.esling2012">2.</a> Esling, P., Agon, C.: Time-series data mining. ACM Computing Surveys 45(1), 1{34 (2012). https://doi.org/10.1145/2379776.2379788
-
-<a name="citation.fakhrazari2017">3.</a> Fakhrazari, A., Vakilzadian, H.: A survey on time series data mining. In: 2017 IEEE International Conference on Electro Information Technology (EIT). pp. 476{481. IEEE (5/14/2017 - 5/17/2017). https://doi.org/10.1109/EIT.2017.8053409
-
-<a name="citation.fu2011">4.</a> Fu, T.c.: A review on time series data mining. Engineering Applications of Artificial Intelligence 24(1), 164{181 (2011). https://doi.org/10.1016/j.engappai.2010.09.007
-
-<a name="citation.keogh2003">5.</a> Keogh, E., Kasetty, S.: On the Need for Time Series Data Mining Benchmarks: A Survey and Empirical Demonstration (2003)
 
