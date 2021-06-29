@@ -1,9 +1,9 @@
 # time-series-analysis-python
-A review of python packages dedicated to time series analysis and a collection of time series analysis tutorials
+A review of python packages dedicated to time series analysis. See [https://siebert-julien.github.io/time-series-analysis-python/](https://siebert-julien.github.io/time-series-analysis-python/)
 
 # Motivation
 
-[Siebert2021](#citation.siebert2021)
+This work was first published here: [Siebert2021](#citation.siebert2021)
 
 # Contributing
 
