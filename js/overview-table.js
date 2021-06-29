@@ -1,10 +1,8 @@
 $(document).ready(function() {
     $('#packages').DataTable( {
-        scrollY:        true,
-        scrollX:        true,
-        scrollCollapse: true,
-        paging:         false,
+        scrollX: true,
         fixedColumns:{leftColumns: 1},
+        paging:         true,
         ajax: 'data/time-series-packages.json',
         sAjaxDataProp: "",
         columns: [
@@ -42,14 +40,13 @@ $(document).ready(function() {
             var i = 0;
             this.api().columns().every( function () {
                 var column = this;
-                if(i>0){
+                if(i > 0){
                     var select = $('<select><option value=""></option></select>')
                         .appendTo( $(column.header()).empty() )
                         .on( 'change', function () {
                             var val = $.fn.dataTable.util.escapeRegex(
                                 $(this).val()
                             );
-
                             column
                                 .search( val ? '^'+val+'$' : '', true, false )
                                 .draw();
