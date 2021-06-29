@@ -33,7 +33,7 @@ Sales, product price, or stock option prediction are typical examples from the f
   <img
   src="images/forecasting.svg"
   alt="Forecasting">
-  <figcaption>Forecasting</figcaption>
+  <figcaption style="text-align: center;">Forecasting</figcaption>
 </figure>
 
 ####  T2 (classification)
@@ -43,7 +43,7 @@ Classification is the task of assigning time series to predefined groups (called
   <img
   src="images/classification_word_height_profiles.svg"
   alt="Classification">
-  <figcaption>Classification</figcaption>
+  <figcaption style="text-align: center;">Classification</figcaption>
 </figure>
 
 ####  T3 (clustering)
@@ -55,7 +55,7 @@ whereas in clustering the groups are formed on the basis of the statistical prop
   <img
   src="images/overview_word_height_profiles.svg"
   alt="Clustering">
-  <figcaption>Clustering</figcaption>
+  <figcaption style="text-align: center;">Clustering</figcaption>
 </figure>
 
 
@@ -68,7 +68,7 @@ or subsequences (called discords).
   <img
   src="images/anomaly_detection_ecg.svg"
   alt="Anomaly detection">
-  <figcaption>Anomaly detection</figcaption>
+  <figcaption style="text-align: center;">Anomaly detection</figcaption>
 </figure>
 
 
@@ -80,7 +80,7 @@ by reducing its dimensionality while retaining its essential features.
   <img
   src="images/segentation_SAX.svg"
   alt="Segmentation">
-  <figcaption>Segmentation (here SAX)</figcaption>
+  <figcaption style="text-align: center;">Segmentation (here SAX)</figcaption>
 </figure>
 
 ####  T6 (pattern recognition)
@@ -90,7 +90,7 @@ Pattern recognition (also called motif discovery) is the task of finding time se
   <img
   src="images/motifs_detection.svg"
   alt="Motifs discovery">
-  <figcaption>Motifs discovery</figcaption>
+  <figcaption style="text-align: center;">Motifs discovery</figcaption>
 </figure>
 
 Not to be confused with **indexing**. Indexing (also called query by content) is the task of finding similar time series 
@@ -101,7 +101,7 @@ Searching for similar time series is the basis for other related tasks (such as 
   <img
   src="images/pattern_detection.svg"
   alt="Indexing">
-  <figcaption>Indexing</figcaption>
+  <figcaption style="text-align: center;">Indexing</figcaption>
 </figure>
 
 ####  T7 (change point detection)
@@ -112,7 +112,7 @@ abruptly change. Change point detection tests are often used in manufacturing fo
   <img
   src="images/changepoint_detection.svg"
   alt="change point detection">
-  <figcaption>Change point detection</figcaption>
+  <figcaption style="text-align: center;">Change point detection</figcaption>
 </figure>
 
 
