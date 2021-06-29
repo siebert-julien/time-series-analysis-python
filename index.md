@@ -24,8 +24,6 @@ The search process in [Siebert2021](#citation.siebert2021), led us (the authors)
 
 ### Tasks:
 
-
-
 ####  T1 (forecasting)
 Forecasting (also called prediction) is the task of predicting future values of a time series given some past data. 
 This is probably the most known and used task and there are many examples of forecasting applications. 
@@ -33,10 +31,13 @@ Sales, product price, or stock option prediction are typical examples from the f
 
 ![images/forecasting.svg](images/forecasting.svg)
 
+_Forecasting_
+
 ####  T2 (classification)
 Classification is the task of assigning time series to predefined groups (called classes).
 ![images/classification_word_height_profiles.svg](images/classification_word_height_profiles.svg)
 
+_Clustering_
 
 ####  T3 (clustering)
 Clustering is the task of grouping similar time series into groups (called clusters). 
@@ -45,6 +46,7 @@ whereas in clustering the groups are formed on the basis of the statistical prop
 
 ![images/overview_word_height_profiles.svg](images/overview_word_height_profiles.svg)
 
+_Clustering_
 
 ####  T4 (anomaly detection)
 
@@ -53,22 +55,38 @@ or subsequences (called discords).
 
 ![images/anomaly_detection_ecg.svg](images/anomaly_detection_ecg.svg)
 
+_Anomaly detection_
+
 ####  T5 (segmentation)
 Segmentation (also called summarization) is the task of creating an accurate approximation of a time series, 
 by reducing its dimensionality while retaining its essential features. 
 
 ![images/segentation_SAX.svg](images/segentation_SAX.svg)
 
+_Segmentation (here SAX)_
+
 ####  T6 (pattern recognition)
-Pattern recognition (also called motif discovery) is the task of finding time series subsequences that appears recurrently. 
+Pattern recognition (also called motifs discovery) is the task of finding time series subsequences that appears recurrently. 
+
+![images/motifs_detection.svg](images/motifs_detection.svg)
+
+_Motifs discovery_
+
+NOt to be confused with **indexing**. Indexing (also called query by content) is the task of finding similar time series 
+(or a given pattern or a subsequence of a time series) in a database. 
+Searching for similar time series is the basis for other related tasks (such as clustering or motifs discovery, for instance). 
 
 ![images/pattern_detection.svg](images/pattern_detection.svg)
+
+_Indexing_
 
 ####  T7 (change point detection)
 Change point detection is the task of finding points in time, where the statistical properties of the time series (like mean, variance)
 abruptly change. Change point detection tests are often used in manufacturing for quality control.
 
 ![images/changepoint_detection.svg](images/changepoint_detection.svg)
+
+_Change point detection_
 
 ### Data preparation (also called implementation components in [Elsing2012](#citation.esling2012)):
 ####  DP1 (dimensionality reduction),
