@@ -10,8 +10,12 @@ Take a look at it, make the best of it, and open a pull request!
 
 ## Adding a new package
 
-The original article [Siebert2021](README.md#citation.siebert2021) defined inclusion and exclusion criteria. 
+The easiest way is probably to open an issue. There is no formal template for this (yet), please name the package and check the original article [Siebert2021](README.md#citation.siebert2021) for inclusion and exclusion criteria. 
 
-## Adding a new task or new implementation component
+## Adding a new category (task, data preparation, evaluation, documentation, datasets)
 
-## Reviewing listed packages
+The easiest way is probably to open an issue. There is no formal template for this (yet), please mention why the new category makes sense.
+
+## Reviewing the listed packages
+
+We plan to review the list of packages every 6 month. Contributions are welcomed. 
