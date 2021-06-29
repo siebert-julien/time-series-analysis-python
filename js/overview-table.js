@@ -4,7 +4,7 @@ $(document).ready(function() {
         scrollX:        true,
         scrollCollapse: true,
         paging:         false,
-        fixedColumns:{leftColumns: 2},
+        fixedColumns:{leftColumns: 1},
         ajax: 'data/time-series-packages.json',
         sAjaxDataProp: "",
         columns: [
