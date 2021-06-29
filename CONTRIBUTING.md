@@ -6,7 +6,7 @@ or you just like reading the contribution guidelines, which is also cool.
 
 First of all, thank you very much for being here. 
 We wrote these guidelines to make life easier for everyone (contributors, reviewers, maintainers, etc.).
-Take a look at it, make the best of it, and open a pull request!
+Take a look at it, make the best of it, and open an issue!
 
 ## Adding a new package
 
