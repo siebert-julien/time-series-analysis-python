@@ -14,8 +14,8 @@ $(document).ready(function() {
                 }
             },
             {data:"forecasting"},
-            {data:"clustering"},
             {data:"classification"},
+            {data:"clustering"},
             {data:"anomaly detection"},
             {data:"segmentation"},
             {data:"pattern recognition"},
