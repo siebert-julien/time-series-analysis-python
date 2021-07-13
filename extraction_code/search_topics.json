@@ -1,0 +1,20 @@
+{
+  "topics": [
+    "time-series",
+    "time-series-analysis",
+    "time-series-forecasting",
+    "time-series-prediction",
+    "time-series-classification",
+    "time-series-clustering",
+    "time-series-forecast",
+    "time-series-data-mining",
+    "time-series-segmentation",
+    "time-series-decomposition",
+    "time-series-regression",
+    "time-series-visualization",
+    "timeseries",
+    "timeseries-analysis",
+    "timeseries-forecasting",
+    "signal-processing"
+  ]
+}

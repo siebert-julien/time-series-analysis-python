@@ -1,0 +1,5 @@
+extracted
+.*
+!from_csv_to_json.py
+!time-series-packages.csv
+!time-series-packages.json

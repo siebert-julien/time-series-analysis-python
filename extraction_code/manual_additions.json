@@ -1,0 +1,24 @@
+{
+  "urls" : [
+        "https://api.github.com/repos/blue-yonder/tsfresh",
+        "https://api.github.com/repos/neurodsp-tools/neurodsp",
+        "https://api.github.com/repos/springer-math/Mathematics-of-Epidemics-on-Networks",
+        "https://api.github.com/repos/CSchoel/nolds",
+        "https://api.github.com/repos/pastas/pastas",
+        "https://api.github.com/repos/cesium-ml/cesium",
+        "https://api.github.com/repos/deeptime-ml/deeptime",
+        "https://api.github.com/repos/firmai/deltapy",
+        "https://api.github.com/repos/pmorissette/ffn",
+        "https://api.github.com/repos/hmmlearn/hmmlearn",
+        "https://api.github.com/repos/bashtage/linearmodels",
+        "https://api.github.com/repos/NLeSC/mcfly",
+        "https://api.github.com/repos/mne-tools/mne-python",
+        "https://api.github.com/repos/nipy/nitime",
+        "https://api.github.com/repos/facebook/prophet",
+        "https://api.github.com/repos/scikit-multiflow/scikit-multiflow",
+        "https://api.github.com/repos/bukosabino/ta",
+        "https://api.github.com/repos/mrjbq7/ta-lib",
+        "https://api.github.com/repos/sunpy/sunpy",
+        "https://api.github.com/repos/librosa/librosa",
+    ]
+}
