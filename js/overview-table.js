@@ -6,7 +6,7 @@ $(document).ready(function() {
         ajax: 'data/time-series-packages.json',
         sAjaxDataProp: "",
         columns: [
-            {data: "url", "name": "name",
+            {data: "name", "url": "url",
                 fnCreatedCell: function (nTd, sData, oData, iRow, iCol) {
                     if(oData.name) {
                         $(nTd).html("<a href='"+oData.url+"'>"+oData.name+"</a>");
