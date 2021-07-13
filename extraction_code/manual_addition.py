@@ -20,8 +20,8 @@ def main(token):
     extracted_data_directory = pathlib.Path(__file__).parent.parent / 'data/extracted'
 
     # search topics
-    with open('manual_addition.json', 'r') as f:
-        urls = json.load(f)['topics']
+    with open('manual_additions.json', 'r') as f:
+        urls = json.load(f)['urls']
 
     headers = {'Content-Type': 'application/json', 'Authorization': f'token {token}'}
 
